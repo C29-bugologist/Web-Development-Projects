@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Paradise</title>
+</head>
+<body>
+    <h1>Pizza Paradise</h1>
+    <p>Your one-stop destination for delicious pizzas!</p>
+
+    <h2>Our Menu</h2>
+    <table border="1">
+        <tr>
+            <th>Pizza</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Margherita</td>
+            <td>A classic pizza topped with mozzarella cheese and fresh basil.</td>
+            <td>$8.99</td>
+        </tr>
+        <tr>
+            <td>Pepperoni</td>
+            <td>A delicious pizza loaded with pepperoni slices and mozzarella.</td>
+            <td>$9.99</td>
+        </tr>
+        <tr>
+            <td>Veggie Delight</td>
+            <td>Loaded with fresh veggies like bell peppers, onions, and olives.</td>
+            <td>$10.49</td>
+        </tr>
+        <tr>
+            <td>BBQ Chicken</td>
+            <td>Grilled chicken, BBQ sauce, and a mix of cheeses.</td>
+            <td>$11.49</td>
+        </tr>
+        <tr>
+            <td>Hawaiian</td>
+            <td>A tropical mix of ham, pineapple, and mozzarella.</td>
+            <td>$10.99</td>
+        </tr>
+    </table>
+
+    <h2>Our Pizzas</h2>
+    <table>
+        <tr>
+            <td>
+                <h3>Margherita</h3>
+                <img src="margherita.jpg" alt="Margherita Pizza" width="300">
+                <p>A classic pizza topped with mozzarella cheese and fresh basil.</p>
+            </td>
+                <h3>Pepperoni</h3>
+                <img src="pepperoni.jpg" alt="Pepperoni Pizza" width="300">
+                <p>A delicious pizza loaded with pepperoni slices and mozzarella.</p>
+            <td>
+                <h3>Veggie Delight</h3>
+                <img src="veggie.jpg" alt="Veggie Delight Pizza" width="300">
+                <p>Loaded with fresh veggies like bell peppers, onions, and olives.</p>
+            </td>
+            <td>
+                <h3>BBQ Chicken</h3>
+                <img src="bbq.jpg" alt="BBQ Chicken Pizza" width="300">
+                <p>Grilled chicken, BBQ sauce, and a mix of cheeses.</p>
+            </td>
+            <td>
+                <h3>Hawaiian</h3>
+                <img src="hawaiian.jpg" alt="Hawaiian Pizza" width="300">
+                <p>A tropical mix of ham, pineapple, and mozzarella.</p>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Order Your Pizza</h2>
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="pizza">Choose Your Pizza:</label>
+        <select id="pizza" name="pizza">
+            <option value="margherita">Margherita</option>
+            <option value="pepperoni">Pepperoni</option>
+            <option value="veggie">Veggie Delight</option>
+            <option value="bbq">BBQ Chicken</option>
+            <option value="hawaiian">Hawaiian</option>
+        </select><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1"><br><br>
+
+        <label for="instructions">Special Instructions:</label><br>
+        <textarea id="instructions" name="instructions" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Place Order</button>
+    </form>
+
+    <footer>
+        <p>© 2024 Pizza Paradise. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
